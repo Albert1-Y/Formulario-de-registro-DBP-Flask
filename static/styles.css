@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #f0f2f5;
+    border-radius: 20px;
+
+}
+
+h1
+{
+    color: green;
+}
+
+.conGlo
+{
+    background-color: #65a2d8;
+    overflow: initial;
+    min-height: 650px;
+    display: inline;
+}
+
+.register
+{
+    margin: 100px auto 30px auto;
+    background-color: #fff;
+    border-top: 1px solid #dadde1;
+    border-bottom: 1px solid #dadde1;
+    border-left: 1px solid #dadde1;
+    border-right: 1px solid #dadde1;
+    box-sizing: border-box;
+    padding: 16px;
+    position: relative;
+    width: 432px;
+    border-radius: 8px;
+}
+
+.cuaRegis
+{
+    height: 35px;
+}
+
+.encab
+{
+    align-items: center;
+    background-color: transparent;
+    border-radius: 8px 8px 0 0;
+    box-sizing: border-box;
+    padding: 10px 16px;
+    position: relative;
+}
+.entit
+{
+    margin-bottom: 0;
+    font-size: 25px;
+    line-height: 32px;
+    text-align: center;
+    font-weight: 600;
+
+}
+
+.bor
+{
+    background-color: transparent;
+    padding: 16px;
+    position: relative;
+    width: 432px;
+    bottom: 0;
+    content: '';
+    left: 0;
+    right: 0;
+    top: 17px;
+    width: 432;
+}
+
+.timbre
+{
+    clear: both;
+    content: '.';
+    display: block;
+    height: 50;
+    width: 399px;
+}
+
+.correo
+{
+    clear: both;
+    content: '.';
+    display: block;
+    height: 50;
+    width: 355px;
+}
+
+.cuaname
+{
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    margin-right: 8px;
+}
+
+.comen
+{
+    margin-bottom: 4px;
+    color: #65a2d8;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 20px;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+
+.cump
+{
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+    margin-right: 67px;
+}
+
+.boton
+{
+    background: none;
+    background-color: green;
+    border: none;
+    border-radius: 6px;
+    box-shadow: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    height: 36px;
+    overflow: hidden;
+    padding: 0 32px;
+    text-shadow: none;
+}

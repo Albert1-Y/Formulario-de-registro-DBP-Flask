@@ -1,0 +1,16 @@
+
+{% extends "layout.html" %}
+
+{% block heading %}
+<p>Te registraste con exito</p>
+{% endblock %}
+
+{% block body %}
+<ul>
+    <li>
+        Tu monbre es: {{name}} {{surname}}
+    </li>
+    <li> Tu correo es: {{correo}} </li>
+    <li> Tu fecha de nacimento es: {{birthday_day}} / {{birthday_month}} / {{birthday_year}} </li>
+</ul>
+{% endblock %}
